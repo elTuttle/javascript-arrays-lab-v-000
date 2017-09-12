@@ -30,7 +30,7 @@ function prependKitten(name){
 function removeFirstKitten(){
   var oldKittens = new array[]
   oldKittens = kittens
-  var newKittens = kittens.splice(1)
+  var newKittens = oldKittens.splice(1)
   console.log(newKittens);
   console.log(kittens);
   return newKittens
