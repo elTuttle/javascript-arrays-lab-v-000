@@ -21,3 +21,14 @@ function appendKitten(name){
   var newKittens = [...kittens, name]
   return newKittens
 }
+
+function prependKitten(name){
+  var newKittens = [name,...kittens]
+  return newKittens
+}
+
+function removeLastKitten(){
+  var newKittens = new Array()
+  newKittens = kittens.pop()
+  return newKittens
+}
