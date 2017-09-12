@@ -28,7 +28,7 @@ function prependKitten(name){
 }
 
 function removeFirstKitten(){
-  var oldKittens = new array
+  var oldKittens = new array{}
   oldKittens = kittens
   var newKittens = oldKittens.splice(1)
   console.log(newKittens);
