@@ -28,14 +28,16 @@ function prependKitten(name){
 }
 
 function removeFirstKitten(){
-  var newKittens = [kittens.splice(1)]
+  var oldKittens = new array[]
+  oldKittens = kittens
+  var newKittens = kittens.splice(1)
   console.log(newKittens);
   console.log(kittens);
   return newKittens
 }
 
 function removeLastKitten(){
-  var newKittens = [kittens.splice(0,kittens.length - 1)]
+  var newKittens = kittens.splice(0,kittens.length - 1)
   console.log(newKittens);
   console.log(kittens);
   return newKittens
