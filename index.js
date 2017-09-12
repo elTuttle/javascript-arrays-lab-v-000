@@ -29,13 +29,13 @@ function prependKitten(name){
 
 function removeFirstKitten(){
   var newKittens = [...kittens]
-  newKittens.pop()
+  newKittens.shift()
   return newKittens
 }
 
 function removeLastKitten(){
   var newKittens = [...kittens]
-  newKittens.shift()
+  newKittens.pop()
   return newKittens
 }
 
